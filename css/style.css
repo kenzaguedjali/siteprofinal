@@ -1,0 +1,211 @@
+@import url(components/ui_1.css);
+@import url(components/ui_2.css);
+@import url(components/ui_3.css);
+@import url(components/ui_4.css);
+@import url(components/ui_5.css);
+@import url(components/ui_7.css);
+
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 20px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 42px;
+  font-weight: bold;;
+}
+
+.banner h1 {
+  margin: 20px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 42px;
+  font-weight: bold;;
+}
+
+
+.banner p {
+  font-size: 20px;
+  margin: 20px;
+  color: white;
+  opacity: .8;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  color:white;
+  background-color: lightpink;
+  border-radius: 10%;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  margin: 30px 20px;
+}
+
+.card_ecommerce {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card_ecommerce button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: lightpink;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+
+}
+
+.card_ecommerce button:hover {
+  opacity: 4;
+}
+
+.card_profile {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title_profile {
+  color: grey;
+  font-size: 18px;
+}
+
+.card_profile button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card_profile a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.card_profile button:hover,
+a:hover {
+  opacity: 0.7;
+}
+h1 { 
+    font-family:  'Bebas Neue', sans-serif;
+  font-size: 20px;
+  color: #FF3399;
+  border: 2px hotpink;
+  margin-left:  15px;
+  padding-top: 20px;
+  text-align: center;
+  }
+
+  h2 { 
+    font-family:  'Bebas Neue', sans-serif;
+  font-size: 20px;
+  color: #FF3399;
+  margin-left:  15px;
+  padding-top: 20px;
+  text-align: center;
+  }
+
+  img { 
+        width: 230px;
+        border-radius:  115px;
+        }
+
+        .img-circle { 
+          border-radius: 50%;
+        }
+
+
+        @media (max-device-width:  300px) {
+      /* For a screen < 540px, this CSS will be read */
+      .sect_1, .real {
+        display:block;
+        }
+        .xl {
+          font-size:  1.2em;
+          padding:  4px;
+        }
+
+        UI7
+.cards_multiple {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  padding: 1em;
+}
+
+/* Smallest device*/
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards_multiple {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .cards_multiple {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .cards_multiple {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .cards_multiple {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .cards_multiple {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.card_category_multiple {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
